@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* para h1 y h2 y slogan "roboto" */
+/* para textos "montserrat" */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* universal entre paginas */
+/* header */
+#top{
+    height: 12.5rem;
+    width: 12.5rem;
+    border-radius: 20.125rem;
+    margin: 4.25rem 1.25rem;
+}
+.slogan{
+    text-transform: capitalize;
+    text-shadow: .3125rem .3125rem .125rem rgba(255, 255, 255, 0.59);
+    text-align: left;
+    align-self: flex-start;
+    margin: 4.25rem 1.25rem;
+    background-color: #0f103599;
+    border-radius: 6.25rem;
+    display: flex;
+    padding: .625rem;
+    color: white;
+    font-family: roboto;
+}
+.logoSlogan{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.barraNav{
+    margin-top: 20.125rem;
+    background-color: #0f103599;
+    border-radius: 6.25rem;
+}
+.listadoNav{
+    width: 100%;
+    height: 5.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.listadoNav li a{
+    text-decoration: none;
+    color: white;
+    font-family: roboto;
+}
+
+/* footer para todos igual */
+
+.sectionContactos{
+    background-color: #0f103599;
+    border-radius: 6.25rem;
+    margin-top: 22.5rem;
+    padding: 3.25rem;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacto{
+    font-family: roboto;
+    color: white;
+}
+
+.listadoContacto{
+    width: 25rem;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-top: .625rem;
+}
+
+.listadoContacto li a{
+    padding: .625rem;
+}
+
+.enlaceLogo {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.821);
+    align-self: center; 
+}
+
+.logofondo{
+    height: 6.5rem;
+    width: 6.5rem;
+    border-radius: 20.125rem;
+    margin: 0rem 1.25rem 0rem 1.25rem;
+    padding-bottom: 0rem;
+}
+.irAlTop{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+/* generales */
+
+.h2generales{
+    color: white;
+    font-family: roboto;
+    margin-top: 9.375rem;
+    background-color: #3653868a;
+    padding: 1.25rem .3125rem 1.25rem 2.3125rem;
+    border-radius: 6.25rem;
+}
+
+.h1Generales{
+    background-color: #3653868a;
+    border-radius: 6.25rem;
+    margin-top: 14.75rem;
+    padding: 1.625rem;
+    color: white;
+    font-family: roboto;
+}
+
+.parrafosGenerales{
+    color: white;
+    font-family: montserrat;
+    margin-top: 6.25rem;
+    background-color: #189aba99;
+    padding: 2.5rem;
+    border-radius: 6.25rem;
+    text-align: justify;
+}
+
+.imgGenerales img{
+    width: 25rem;
+    height: 25rem;
+    margin: 6.25rem 3.125rem;
+    border-radius: 6.25rem;
+    }
+
+.imgGenerales{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    margin: auto;
+}
+
+/* index */
+
+.bodyindex{
+    background-image: url("../assets/img/bodyindex.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagenesIndex {
+    width: 100%;
+    height: 100%;
+    margin-top: 10rem;
+    padding: 1.25rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "img01 . img02";
+    }
+
+.img01{
+    width: 100%;
+    height: 100%;
+    border-radius: 6.25rem;
+    grid-area: img01;
+}
+.img02{
+    width: 100%;
+    height: 100%;
+    border-radius: 6.25rem;
+    grid-area: img02;
+} 
+
+/* metodos */
+
+.bodyMetodos{
+    background-image: url(../assets/img/bodyMetodos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* catalogo */
+
+.bodyCatalogo{
+    background-image: url(../assets/img/bodycatalogo.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 100%;
+} 
+
+
+
+.gridImg img{
+    width: 100%;
+    height: 75%;
+    border-radius: 5rem;
+}
+
+.gridImg{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: repeat(4, 1fr);
+    margin-top: 5rem;
+    justify-items: center;
+    align-items: center;
+    gap: 80px;
+    padding: 40px;
+}
+
+/* servicios */
+
+.bodyServicios{
+    background-image: url(../assets/img/bodyservicios.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* presupuesto */
+
+.bodyPresupuesto{
+    background-image: url(../assets/img/bodypresupuesto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+fieldset{
+    border: 5px solid #189abacd;
+    border-radius: 1rem;
+    margin: 5px;
+    padding: 5px;
+}
+
+.formulario{
+    background-color: #0f103599;
+    border-radius: 6.25rem;
+    margin-top: 14.75rem;
+    padding: 2.625rem;
+    color: white;
+    font-family: roboto;
+    font-size: 24px;
+}
+
+legend{
+    font-size: 32px;
+    background-color: #0f103592;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.características{
+    color: rgb(255, 255, 255);
+    background-color: #189aba58;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.labelEstilo{
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+}
+
+.complementos{
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    padding: 5px;
+    gap: 2.25rem;
+}
+
+.botonEnviar{
+    width: 100%;
+    height: 3.125rem;
+    border-radius: 2.5rem;
+    background-color: #189aba9a;
+    font-size: 1.5rem;
+    border: .125rem solid #0f103592;
+}
+
+.checkbox{
+    width: 1.625rem;
+    height: 1.625rem;
+}
+
+.dejaComentario{
+    width: 50%;
+    height: 3.125rem;
+    background-color: #b2d4dc5f;
+    border-radius: 3.125rem;
+    font-size: 1rem;
+}
+/* media querry */
+@media(max-width: 1024px){
+    /* GENERALES */
+
+    .sectionContactos{
+        border-radius: 3.125rem;
+        margin-top: 11.25rem;
+        padding: 1.5625rem;
+        background-color: rgba(0, 255, 255, 0.479);
+    }
+    .barraNav{
+        margin-top: 10.125rem;
+        background-color: #276ea199;
+        border-radius: 4.25rem;
+    }
+    
+    /* metodos y servicios */
+    .imgGenerales img{
+        border-radius: 3.125rem;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+    .imgGenerales{
+        margin-top: 40px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "imagen1 imagen2";
+        
+    }
+    .imgBorrar{
+        display: none;
+    }
+    .imagen1{
+        grid-area: imagen1;
+    }
+    .imagen2{
+        grid-area: imagen2;
+    }
+    
+}
+
+@media(max-width: 768px){
+    /* generales */
+    .headerindex{
+        background-position: 0% 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .logoSlogan{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: start;
+        flex-direction: column;}
+
+    #top{
+        height: 6.25rem;
+        width: 6.25rem;
+        margin: 1.25rem;
+    }
+
+    .slogan{
+        margin: 1.25rem;
+    }
+    .barraNav{
+        margin-top: 0rem;
+        width: 20%;
+        border-radius: 20px;
+    }
+    .listadoNav{
+        flex-direction: column;
+        gap: 1.25rem;
+        padding: 20px;
+    }
+
+    .sectionContactos{
+        border-radius: 3.125rem;
+        margin-top: 11.25rem;
+        padding: 1.5625rem;
+        background-color: rgba(0, 255, 255, 0.479);
+    }
+
+/* index */
+    .img01, .img02{
+        border-radius: 3.25rem;
+        height: 250px;
+    }
+
+    /* metodos y servicios */
+    .h1Generales{
+        margin-top: 3.125rem;
+        border-radius: 1.125rem;
+    }
+    .h2generales{
+        margin-top: 3.125rem;
+        border-radius: 1.125rem;
+        background-color: #172d558a;
+    }
+    .parrafosGenerales{
+        margin-top: 3.125rem;
+        background-color: rgba(13, 88, 120, 0.658);
+        border-radius: 1.125rem;
+    }
+    .imgGenerales img{
+        border-radius: 3.125rem;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+    .imgGenerales{
+        margin-top: 40px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "imagen1 imagen2";
+        
+    }
+    .imgBorrar{
+        display: none;
+    }
+    .imagen1{
+        grid-area: imagen1;
+    }
+    .imagen2{
+        grid-area: imagen2;
+    }
+
+    /* CATALOGO */
+    .gridImg img{
+        border-radius: 1rem;
+    }
+
+    /* PRESUPUESTO */
+    .formulario{
+        border-radius: 3.125rem;
+        margin-top: 3.5rem;
+        background-color: #050624a4;
+    }
+    .legend{
+        font-size: 24px;
+        border-radius: 20px;
+    }
+    .labelEstilo{
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+    }
+    
+    .complementos{
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+    }
+}
+
+@media(max-width: 426px){
+    /* generales */
+    .slogan{
+        background-color: #06605b99;
+    }
+    .barraNav{
+        background-color: #06605b99;
+        border-radius: 10px;
+    }
+    .listadoNav li a{
+        font-size: 12px;
+    }
+    .bodyindex{
+        background-image: url(../assets/img/bodypresupuesto.jpg);
+    }
+    .sectionContactos{
+        background-color: rgba(85, 6, 255, 0.634);
+        border-radius: .625rem;
+        margin-top: 5rem;
+        padding: 12px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .listadoContacto li a{
+        padding: .3125rem;
+    }
+    .logofondo{
+        height: 3.125rem;
+        width: 3.125rem;
+        margin: 0rem;
+        padding-bottom: 0rem;
+        align-self: center;
+    }
+    .irAlTop{
+        margin-top: 1.25rem;
+    }
+    .h1Generales{
+        background-color: #06605b99;
+        font-size: 16px;
+    }
+    .h2generales{
+        background-color: #0a948d99; 
+        font-size: 16px;
+    }
+    .parrafosGenerales{
+        background-color: #03323099;
+        border-radius: .625rem;
+        font-size: 16px;
+        text-align:center;
+    }
+    .bodyPresupuesto{
+        background-color: rgba(104, 99, 99, 0.759);
+        background-image: none;
+    }
+
+    /* catalogo */
+    .imgBorrar2{
+        display: none;
+    }
+
+    .gridImg img{
+        width: 100%;
+        height: 75%;
+        border-radius: 1rem;
+    }
+    .gridImg{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-template-rows: repeat(4, 1fr);
+}
+
+}

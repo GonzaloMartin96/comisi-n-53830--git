@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metro cuadrado piscinas</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="bodyPresupuesto">
+    <header class="headerindex">
+        <a href="../index.html">
+            <div class="logoSlogan">
+                <img id="top" src="../assets/img/logo.jpg" alt="logo de la empresa en blanco y negro">
+                <p class="slogan">La piscina <br>
+                    que siempre soñaste</p>
+            </div>
+        </a>
+        <nav class="barraNav">
+            <ul class="listadoNav">
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="./metodos.html">METODOS</a></li>
+                <li><a href="./catalogo.html">CATALOGO</a></li>
+                <li><a href="./servicios.html">SERVICIOS</a></li>
+                <li><a href="#">PRESUPUESTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="h1Generales">Mandanos tu peticion de presupuesto y hace realidad la piscina de tus sueños</h1>
+        <section class="formulario">
+            <form action="">
+                <fieldset>
+                    <legend>Presupuesto</legend>
+                    <div>
+                        <fieldset>
+                            <legend>Datos personales</legend>
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" required placeholder="Nombre">
+
+                            <label for="apellido">Apellido</label>
+                            <input type="text" id="apellido" required placeholder="Apellido">
+
+                            <label for="number">Telefono</label>
+                            <input type="number" id="number" required placeholder="numero telefonico">
+
+                            <label for="Email">Email</label>
+                            <input type="email" id="Email" required placeholder="correo electronico">
+                        </fieldset>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend>Elige tu estilo de piscina</legend>
+                            <label class="labelEstilo" for="minimalista">Minimalista</label>
+                            <input class="checkbox" type="radio" id="minimalista" name="estilos" required>
+                            <p class="características">
+                                Este diseño se caracteriza por líneas limpias, formas geométricas simples y materiales
+                                contemporáneos como el hormigón, el vidrio y el acero inoxidable.
+                            </p>
+
+                            <label class="labelEstilo" for="naturista">Naturista</label>
+                            <input class="checkbox" type="radio" id="naturista" name="estilos" required>
+                            <p class="características">
+                                Inspirado en la naturaleza, este diseño busca integrar la piscina en su entorno
+                                circundante utilizando materiales como piedra, madera y plantas.
+                            </p>
+
+                            <label class="labelEstilo" for="clasico">Clasico</label>
+                            <input class="checkbox" type="radio" id="clasico" name="estilos" required>
+                            <p class="características">
+                                Este diseño se basa en elementos arquitectónicos tradicionales y características
+                                estilísticas atemporales.
+                            </p>
+                        </fieldset>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend>Complemetarios</legend>
+
+                            <p class="características">
+                                Ten en cuenta que cada aspecto que selecciones tendra impacto en el precio final del
+                                presupuesto
+                            </p>
+                            <!-- aqui hacer un div con class="complementos" y en css llamarlo (.complementos label) para no tener el class en todos los label -->
+                            <div class="complementos">
+                                <label for="filtrado">Sistema de filtrado</label>
+                                <input class="checkbox" type="checkbox" id="filtrado" name="complementarios"><br>
+
+                                <label for="losetas">Losetas atermicas</label>
+                                <input class="checkbox" type="checkbox" id="losetas" name="complementarios"><br>
+
+                                <label for="revestimiento">Revestimiento o pintura</label>
+                                <input class="checkbox" type="checkbox" id="revestimiento" name="complementarios"><br>
+
+                                <label for="caldera">Calefaccion</label>
+                                <input class="checkbox" type="checkbox" id="caldera" name="complementarios"><br>
+
+                                <label for="hidro">Hidromasajes</label>
+                                <input class="checkbox" type="checkbox" id="hidro" name="complementarios"><br>
+
+                                <label for="riego">Riego y parquizacion de su patio</label>
+                                <input class="checkbox" type="checkbox" id="riego" name="complementarios"><br>
+
+                                <label for="garantia">Garantia extendida por 10 años mas</label>
+                                <input class="checkbox" type="checkbox" id="garantia" name="complementarios"><br>
+
+                                <label for="mensaje">Deja tu comentario</label><br>
+                                <input class="dejaComentario" type="text" id="mensaje" size="75">
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend>Enviar</legend>
+                            <input class="botonEnviar" type="submit">
+                        </fieldset>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <section>
+            <p class="parrafosGenerales">Gracias por confiar en Metro cuadrado</p>
+        </section>
+    </main>
+
+    <footer>
+        <section class="sectionContactos">
+            <div>
+                <h2 class="contacto">Contacto</h2>
+                <ul class="listadoContacto">
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="../assets/img/instagram.png"
+                                alt="logo de instagram"></a></li>
+                    <li><a href="https://web.whatsapp.com/" target="_blank"><img src="../assets/img/whatsapp.png"
+                                alt="logo de whatsapp"></a></li>
+                    <li><a href="https://mail.google.com/mail/u/0/?hl=es#inbox" target="_blank"><img
+                                src="../assets/img/gmail.png" alt="logo de gmail"></a></li>
+                </ul>
+            </div>
+            <div>
+                <a class="irAlTop" href="#top">
+                    <img class="logofondo" src="../assets/img/logo.jpg" alt="logo de la empresa en blanco y negro">
+                    <p class="enlaceLogo">Ir al top</p>
+                </a>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
