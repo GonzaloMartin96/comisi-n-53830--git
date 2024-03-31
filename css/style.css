@@ -20,7 +20,6 @@
 }
 .slogan{
     text-transform: capitalize;
-    text-shadow: .3125rem .3125rem .125rem rgba(255, 255, 255, 0.59);
     text-align: left;
     align-self: flex-start;
     margin: 4.25rem 1.25rem;
@@ -537,3 +536,32 @@ legend{
 }
 
 }
+
+/* PESUDOCLASES */
+.listadoNav li a:hover{
+    color: black;
+}
+.listadoNav li a:active{
+    filter: blur(.625rem);
+}
+#top:active{
+    filter: blur(.625rem);
+}
+#top:hover{
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.551);
+}
+.slogan:active{
+    filter: blur(.625rem);
+}
+.slogan:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.551);
+}
+.parrafosGenerales::selection{
+    color: black;
+    background-color: wheat;
+}
+input::placeholder{
+    background-color: rgba(229, 152, 10, 0.56);
+}
+/* 
+ */
