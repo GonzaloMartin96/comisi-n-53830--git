@@ -1,0 +1,49 @@
+/* footer */
+
+.sectionContactos {
+    background-color: $primary-color;
+    border-radius: 6.25rem;
+    margin-top: 22.5rem;
+    padding: 3.25rem;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .contacto {
+    font-family: Roboto;
+    color: white;
+  }
+  
+  .listadoContacto {
+    width: 25rem;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-top: .625rem;
+  
+    li a {
+      padding: .625rem;
+    }
+  }
+  
+  .enlaceLogo {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.821);
+    align-self: center;
+  }
+  
+  .logofondo {
+    height: 6.5rem;
+    width: 6.5rem;
+    border-radius: 20.125rem;
+    margin: 0rem 1.25rem 0rem 1.25rem;
+    padding-bottom: 0rem;
+  }
+  
+  .irAlTop {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }

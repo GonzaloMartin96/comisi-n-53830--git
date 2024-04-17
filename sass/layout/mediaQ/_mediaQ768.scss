@@ -1,0 +1,122 @@
+@media (max-width: 768px) {
+    /* generales */
+  
+    .headerindex {
+      background-position: 0% 50%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .logoSlogan {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: start;
+      flex-direction: column;
+    }
+  
+    #top {
+      height: 6.25rem;
+      width: 6.25rem;
+      margin: 1.25rem;
+    }
+  
+    .slogan {
+      margin: 1.25rem;
+    }
+  
+    .barraNav {
+      margin-top: 0rem;
+      width: 20%;
+      border-radius: 20px;
+    }
+  
+    .listadoNav {
+      flex-direction: column;
+      gap: 1.25rem;
+      padding: 20px;
+    }
+  
+    .sectionContactos {
+      border-radius: 3.125rem;
+      margin-top: 11.25rem;
+      padding: 1.5625rem;
+      background-color: rgba(0, 255, 255, 0.479);
+    }
+  
+    /* index */
+  
+    .img01, .img02 {
+      border-radius: 3.25rem;
+      height: 250px;
+    }
+  
+    /* metodos y servicios */
+  
+    .h1Generales {
+      margin-top: 3.125rem;
+      border-radius: 1.125rem;
+    }
+  
+    .h2generales {
+      margin-top: 3.125rem;
+      border-radius: 1.125rem;
+      background-color: #172d558a;
+    }
+  
+    .parrafosGenerales {
+      margin-top: 3.125rem;
+      background-color: rgba(13, 88, 120, 0.658);
+      border-radius: 1.125rem;
+    }
+  
+    .imgGenerales {
+      img {
+        border-radius: 3.125rem;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 20px;
+      }
+  
+      margin-top: 40px;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas: "imagen1 imagen2";
+    }
+  
+    .imgBorrar {
+      display: none;
+    }
+  
+    .imagen1 {
+      grid-area: imagen1;
+    }
+  
+    .imagen2 {
+      grid-area: imagen2;
+    }
+  
+    /* CATALOGO */
+  
+    .gridImg img {
+      border-radius: 1rem;
+    }
+  
+    /* PRESUPUESTO */
+  
+    .formulario {
+      border-radius: 3.125rem;
+      margin-top: 3.5rem;
+      background-color: #050624a4;
+    }
+  
+    .legend {
+      font-size: 24px;
+      border-radius: 20px;
+    }
+  
+    .labelEstilo, .complementos {
+      color: rgb(255, 255, 255);
+      font-size: 24px;
+    }
+  }

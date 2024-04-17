@@ -1,0 +1,40 @@
+/* PSEUDOCLASES */
+
+.listadoNav li a {
+    &:hover {
+      color: black;
+    }
+  
+    &:active {
+      filter: blur(0.625rem);
+    }
+  }
+  
+  #top {
+    &:active {
+      filter: blur(0.625rem);
+    }
+  
+    &:hover {
+      box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.551);
+    }
+  }
+  
+  .slogan {
+    &:active {
+      filter: blur(0.625rem);
+    }
+  
+    &:hover {
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.551);
+    }
+  }
+  
+  .parrafosGenerales::selection {
+    color: black;
+    background-color: wheat;
+  }
+  
+  input::placeholder {
+    background-color: rgba(229, 152, 10, 0.56);
+  }
