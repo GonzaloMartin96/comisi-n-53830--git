@@ -12,6 +12,10 @@
 - git
 - github
 - figma
+- SASS
+- SEO
+- Animaciones
 
 
 ------------
+![imagen delfigma](./assets/img/readme/figma.png)
