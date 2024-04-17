@@ -2,7 +2,7 @@
 
 .listadoNav li a {
     &:hover {
-      color: black;
+      color: rgb(225, 230, 166);
     }
   
     &:active {
@@ -16,7 +16,7 @@
     }
   
     &:hover {
-      box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.551);
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.551);
     }
   }
   

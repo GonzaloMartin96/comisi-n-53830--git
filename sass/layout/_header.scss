@@ -1,4 +1,11 @@
 /* header */
+.headerindex{
+  background-image: url(../assets/img/fondo-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 #top {
   height: 12.5rem;
@@ -29,7 +36,7 @@
 }
 
 .barraNav {
-  margin-top: 20.125rem;
+  margin-top: 24.125rem;
   background-color: $primary-color;
   border-radius: 6.25rem;
 

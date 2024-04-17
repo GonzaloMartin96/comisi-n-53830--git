@@ -5,13 +5,13 @@
   color: white;
   font-family: Roboto;
   margin-top: 9.375rem;
-  background-color: rgba(54, 83, 134, 0.5411764706);
+  background-color: rgba(5, 41, 54, 0.5411764706);
   padding: 1.25rem 0.3125rem 1.25rem 2.3125rem;
   border-radius: 6.25rem;
 }
 
 .h1Generales {
-  background-color: rgba(54, 83, 134, 0.5411764706);
+  background-color: rgba(5, 41, 54, 0.5411764706);
   border-radius: 6.25rem;
   margin-top: 14.75rem;
   padding: 1.625rem;
@@ -23,7 +23,7 @@
   color: white;
   font-family: Montserrat;
   margin-top: 6.25rem;
-  background-color: rgba(54, 83, 134, 0.5411764706);
+  background-color: rgba(5, 41, 54, 0.5411764706);
   padding: 2.5rem;
   border-radius: 6.25rem;
   text-align: justify;
@@ -49,6 +49,13 @@
 }
 
 /* header */
+.headerindex {
+  background-image: url(../assets/img/fondo-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #top {
   height: 12.5rem;
   width: 12.5rem;
@@ -61,7 +68,7 @@
   text-align: left;
   align-self: flex-start;
   margin: 4.25rem 1.25rem;
-  background-color: rgba(15, 16, 53, 0.6);
+  background-color: rgba(7, 9, 29, 0.6);
   border-radius: 6.25rem;
   display: flex;
   padding: 0.625rem;
@@ -78,8 +85,8 @@
 }
 
 .barraNav {
-  margin-top: 20.125rem;
-  background-color: rgba(15, 16, 53, 0.6);
+  margin-top: 24.125rem;
+  background-color: rgba(7, 9, 29, 0.6);
   border-radius: 6.25rem;
   opacity: 0;
   animation: fadeIn 0.5s ease forwards;
@@ -112,7 +119,7 @@
 }
 /* footer */
 .sectionContactos {
-  background-color: rgba(15, 16, 53, 0.6);
+  background-color: rgba(4, 64, 71, 0.6588235294);
   border-radius: 6.25rem;
   margin-top: 22.5rem;
   padding: 3.25rem;
@@ -160,7 +167,7 @@
 
 /* index */
 .bodyindex {
-  background-image: url("../assets/img/bodyindex.jpg");
+  background-image: url("../assets/img/fondo-index.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -193,7 +200,7 @@
 
 /* metodos */
 .bodyMetodos {
-  background-image: url(../assets/img/bodyMetodos.jpg);
+  background-image: url(../assets/img/fondo-metodos.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -201,10 +208,10 @@
 
 /* catalogo */
 .bodyCatalogo {
-  background-image: url(../assets/img/bodycatalogo.jpg);
+  background-image: url(../assets/img/fondo-catalogo.jpg);
   background-position: center;
-  background-repeat: repeat;
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .gridImg {
@@ -235,7 +242,7 @@
 }
 /* servicios */
 .bodyServicios {
-  background-image: url(../assets/img/bodyservicios.jpg);
+  background-image: url(../assets/img/fondo-servicios.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -243,32 +250,32 @@
 
 /* presupuesto */
 .bodyPresupuesto {
-  background-image: url(../assets/img/bodypresupuesto.jpg);
+  background-image: url(../assets/img/fondo-presupuesto.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 fieldset {
-  border: 5px solid rgba(24, 154, 186, 0.6);
+  border: 5px solid rgba(4, 64, 71, 0.6588235294);
   border-radius: 1rem;
   margin: 5px;
   padding: 5px;
 }
 
 .formulario {
-  background-color: rgba(15, 16, 53, 0.6);
+  background-color: rgba(7, 9, 29, 0.6);
   border-radius: 6.25rem;
   margin-top: 14.75rem;
   padding: 2.625rem;
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: Roboto;
   font-size: 24px;
 }
 
 legend {
   font-size: 32px;
-  background-color: rgba(15, 16, 53, 0.57);
+  background-color: rgba(7, 9, 29, 0.57);
   border-radius: 40px;
   padding: 10px;
   margin: 5px;
@@ -276,18 +283,18 @@ legend {
 
 .características {
   color: rgb(255, 255, 255);
-  background-color: rgba(24, 154, 186, 0.658);
+  background-color: rgba(4, 64, 71, 0.658);
   border-radius: 40px;
   padding: 10px;
 }
 
 .labelEstilo {
-  color: rgb(0, 0, 0);
+  color: rgb(109, 183, 197);
   font-size: 32px;
 }
 
 .complementos {
-  color: rgb(0, 0, 0);
+  color: rgb(109, 183, 197);
   font-size: 32px;
   padding: 5px;
   gap: 2.25rem;
@@ -299,7 +306,7 @@ legend {
   border-radius: 2.5rem;
   background-color: rgba(24, 154, 186, 0.6039215686);
   font-size: 1.5rem;
-  border: 0.125rem solid rgba(15, 16, 53, 0.57);
+  border: 0.125rem solid rgba(7, 9, 29, 0.57);
 }
 
 .checkbox {
@@ -521,7 +528,7 @@ legend {
 }
 /* PSEUDOCLASES */
 .listadoNav li a:hover {
-  color: black;
+  color: rgb(225, 230, 166);
 }
 .listadoNav li a:active {
   filter: blur(0.625rem);
@@ -531,7 +538,7 @@ legend {
   filter: blur(0.625rem);
 }
 #top:hover {
-  box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.551);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.551);
 }
 
 .slogan:active {

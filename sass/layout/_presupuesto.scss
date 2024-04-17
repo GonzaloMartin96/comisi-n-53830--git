@@ -1,7 +1,7 @@
 /* presupuesto */
 
 .bodyPresupuesto {
-    background-image: url(../assets/img/bodypresupuesto.jpg);
+    background-image: url(../assets/img/fondo-presupuesto.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,7 +19,7 @@
     border-radius: 6.25rem;
     margin-top: 14.75rem;
     padding: 2.625rem;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: Roboto;
     font-size: 24px;
   }
@@ -40,12 +40,12 @@
   }
   
   .labelEstilo {
-    color: rgb(0, 0, 0);
+    color: rgb(109, 183, 197);
     font-size: 32px;
   }
   
   .complementos {
-    color: rgb(0, 0, 0);
+    color: rgb(109, 183, 197);
     font-size: 32px;
     padding: 5px;
     gap: 2.25rem;
