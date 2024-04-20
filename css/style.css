@@ -5,13 +5,13 @@
   color: white;
   font-family: Roboto;
   margin-top: 9.375rem;
-  background-color: rgba(5, 41, 54, 0.5411764706);
+  background-color: rgba(6, 32, 42, 0.6352941176);
   padding: 1.25rem 0.3125rem 1.25rem 2.3125rem;
   border-radius: 6.25rem;
 }
 
 .h1Generales {
-  background-color: rgba(5, 41, 54, 0.5411764706);
+  background-color: rgba(6, 32, 42, 0.6352941176);
   border-radius: 6.25rem;
   margin-top: 14.75rem;
   padding: 1.625rem;
@@ -23,7 +23,7 @@
   color: white;
   font-family: Montserrat;
   margin-top: 6.25rem;
-  background-color: rgba(5, 41, 54, 0.5411764706);
+  background-color: rgba(6, 32, 42, 0.6352941176);
   padding: 2.5rem;
   border-radius: 6.25rem;
   text-align: justify;
@@ -468,11 +468,8 @@ legend {
   .listadoNav li a {
     font-size: 12px;
   }
-  .bodyindex {
-    background-image: url(../assets/img/bodypresupuesto.jpg);
-  }
   .sectionContactos {
-    background-color: rgba(85, 6, 255, 0.634);
+    background-color: rgba(6, 96, 91, 0.6);
     border-radius: 0.625rem;
     margin-top: 5rem;
     padding: 12px;
